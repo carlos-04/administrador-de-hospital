@@ -10,11 +10,13 @@ import { NotpagesfoundComponent } from './notpagesfound/notpagesfound.component'
   declarations: [
     AppComponent,
     NotpagesfoundComponent
+
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
+    
 
   ],
   bootstrap: [AppComponent],
