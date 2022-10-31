@@ -30,7 +30,7 @@
                         </span>
                     </a>
                     <ul aria-expanded="false">
-                        <li *ngFor="let subItems of item.subMenu"><a [routerLink]="subItems.url" routerLinkActive="active">{{subItems.titulo}} </a></li>
+                        <li *ngFor="let subItems of item.subMenu"><a [routerLink]="subItems.url" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{subItems.titulo}} </a></li>
                     </ul>
                 </li>
             </ul>

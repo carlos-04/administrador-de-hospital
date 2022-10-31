@@ -12,11 +12,12 @@ export class SidebarService {
         { titulo: 'Menu', url: '/' },
         { titulo: 'ProgressBar', url: 'progress' },
         { titulo: 'Graficas', url: 'grafica1' },
+        { titulo: 'Promesas', url: 'promesas' },
+        { titulo: 'rxjs', url: 'rxjs' },
+        
       ]
     },
   ];
   constructor() {
-
-    console.log("entro klok")
    }
 }
